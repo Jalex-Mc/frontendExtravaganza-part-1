@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here]([https://your-live-site-url.com](https://frontend-extravaganza.vercel.app/))
+- Live Site URL: [https://frontend-extravaganza.vercel.app/]((https://frontend-extravaganza.vercel.app/))
 
 ## My process
 
