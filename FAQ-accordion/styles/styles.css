@@ -1,0 +1,127 @@
+body {
+    color: #301534;
+    background-color: hsl(275, 100%, 97%);
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* having a height is required to center a box vertically!! */
+}
+
+.background_img {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 0;
+
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    width: 42%;
+    /* min-height: 63vh; */
+    border-radius: 16px;
+    padding-bottom: 40px;
+}
+
+.headliner {
+    display: flex;
+    align-items: center;
+    margin: 40px 40px 32px 40px;
+}
+
+.headliner > img {
+    max-height: 40px;
+    max-width: 40px;
+}
+
+.top-text {
+    margin-left: 24px;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.dropdown-container {
+    margin: 0 40px;
+}
+
+.accordion {
+    border: none;
+    outline: none;
+    background-color: white;
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 24px 0 24px 0;
+}
+
+.question {
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 24px;
+    margin: 0;
+}
+
+.question:hover {
+    color: hsl(292, 16%, 49%);
+    color: #8A20BC;
+}
+
+.panel {
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    font-weight: 400;
+    font-size: 16px;
+    color: hsl(292, 16%, 49%);
+    line-height: 1.5;
+    margin-bottom: 24px;
+    margin-top: 0;
+}
+
+hr {
+    border: 1px solid hsl(275, 100%, 97%);
+    margin: 0;
+}
+
+@media (max-width: 375px) {
+    body > img {
+        content: url("styles/images/background-pattern-desktop.svg");
+    }
+
+    .container {
+        width: 87%;
+    }
+
+    .star-faq {
+        height: 24px;
+        width: 24px;
+    }
+
+    .top-text {
+        font-size: 32px;
+    }
+
+    .question {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .headliner > img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .panel {
+        font-size: 14px;
+    }
+}
