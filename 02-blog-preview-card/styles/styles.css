@@ -23,6 +23,10 @@ main {
     max-height: 522px;
 }
 
+.container:hover {
+    filter: drop-shadow(16px 16px black);
+}
+
 .article-img {
     max-width: 336px;
     margin-bottom: 24px;
@@ -59,7 +63,6 @@ h1 {
 h1:hover {
     color: hsl(47, 88%, 63%);
     cursor: pointer;
-    filter: drop-shadow(16px 16px black);
 }
 
 p {
