@@ -1,0 +1,70 @@
+@font-face {
+    font-family: fraunces;
+    src: url('../styles/fonts/fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf')
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    font-family: 'Manrope', sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+
+.hero-section {
+    display: flex;
+    background-color: #24053E;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+    /* overflow: visible; */
+}
+
+/* .hero-section::after {
+    border-radius: 100%;
+    background-color: #24053E;
+} */
+
+header {
+    margin: 56px 156px;
+    display: flex;
+    justify-content: space-between;
+    font-family: manrope;
+    color: white;
+    text-decoration: underline 2px #44FFA1;
+    text-underline-offset: 8px;
+    font-weight: 700;
+}
+
+.main-blurb {
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+}
+
+.left-hero-img {
+    position: absolute;
+    left: -150px;
+}
+
+.middle-hero-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.right-hero-img {
+    /* position: absolute; */
+    right: 150px;
+}
+
+header > img {
+    width: 95.76px;
+    height: 24.61px;
+}
+
+#phone-img {
+    width: 500px;
+}
