@@ -42,6 +42,7 @@ header {
     display: flex;
     position: relative;
     justify-content: space-evenly;
+    width: 100vw;
 }
 
 .left-hero-img {
@@ -54,6 +55,10 @@ header {
     flex-direction: column;
     margin: auto;
 }
+
+/* when starting again, comment out both image positions so i
+can get the positioning better and then mess with the image overflows
+position out main-blurb position as well */
 
 .right-hero-img {
     /* position: absolute; */
