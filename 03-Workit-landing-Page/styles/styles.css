@@ -40,7 +40,6 @@ header {
 
 .main-blurb {
     display: flex;
-    position: relative;
     justify-content: space-evenly;
     width: 100vw;
 }
@@ -54,15 +53,40 @@ header {
     display: flex;
     flex-direction: column;
     margin: auto;
+    align-items: center;
 }
 
-/* when starting again, comment out both image positions so i
-can get the positioning better and then mess with the image overflows
-position out main-blurb position as well */
+h1 {
+    font-family: fraunces;
+    color: white;
+    font-size: 80px;
+    line-height: 80px;
+    text-align: center;
+    width: 635px;
+    font-weight: 600;
+    margin-bottom: 37px;
+}
+
+em {
+    font-style: normal;
+    text-decoration: underline 2px #44FFA1;
+    text-underline-offset: 8px;
+}
+
+.middle-hero-container > button {
+    width: 161px;
+    height: 61px;
+    background-color: #44FFA1;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0;
+    margin-bottom: 50px;
+}
 
 .right-hero-img {
-    /* position: absolute; */
-    right: 150px;
+    position: absolute;
+    right: -52.5px;
 }
 
 header > img {
