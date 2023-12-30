@@ -49,6 +49,15 @@ header {
     font-weight: 700;
 }
 
+header > p {
+    margin: 0;
+}
+
+header > p:hover {
+    color: #44FFA1;
+    cursor: pointer;
+}
+
 .main-blurb {
     display: flex;
     justify-content: space-evenly;
@@ -80,6 +89,7 @@ h1 {
     font-weight: 600;
     margin: 0 0 37px 0;
     margin-bottom: 37px;
+    letter-spacing: 1px;
 }
 
 em {
@@ -97,6 +107,13 @@ em {
     font-weight: bold;
     border: 0;
     margin-bottom: 50px;
+}
+
+.middle-hero-container > button:hover {
+    background-color: #24053E;
+    color: #44FFA1;
+    border: 1px solid #44FFA1;
+    cursor: pointer;
 }
 
 #phone-img {
@@ -120,11 +137,20 @@ header > img {
 #phone-img {
     width: 500px;
 }
+/* 
+.mid-section::before {
+    background-color: #FCF8ff;
+    height: 1500px;
+    width: 100%;
+    display: block;
+    content: "";
+} */
 
 .mid-section {
     box-sizing: border-box;
     padding: 174px 165px 0 165px;
     display: flex;
+    justify-content: space-around;
     font-family: fraunces;
     color: #24053E;
     background-color: #FCF8ff;
@@ -146,7 +172,7 @@ header > img {
     z-index: 23;
 }
 
-.mid-section > div {
+.mid-section-flex {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -176,14 +202,23 @@ h3 {
     margin-bottom: 28px;
 }
 
+.paragraph-spiegl-box {
+    max-width: 354px;
+}
+
 .paragraph-spiegl {
+    max-height: 128px;
     font-family: 'Manrope', sans-serif;
+    font-weight: 400;
     font-size: 18px;
     line-height: 32px;
     letter-spacing: 1px;
     text-align: center;
     padding: 0;
     vertical-align: top;
+    /* overflow: scroll; */
+    text-wrap: wrap;
+    word-wrap: break-word;
 }
 
 #far-left {
@@ -223,6 +258,7 @@ h3 {
     height: 413px;
     background-color: #24053E;
     z-index: 2;
+    overflow: scroll;
 }
 
 h2 {
@@ -238,12 +274,14 @@ h2 {
 .end-spiegl > p {
     font-family: 'Manrope', sans-serif;
     font-size: 18px;
+    font-weight: 400;
     line-height: 32px;
     letter-spacing: 1px;
     text-align: left;
     vertical-align: top;
     color: white;
     margin: 0 64px 32px 64px;
+    text-wrap: wrap;
 }
 
 .end-spiegl > button {
@@ -260,6 +298,13 @@ h2 {
     width: 190px;
     height: 61px;
     border: 0;
+}
+
+.end-spiegl > button:hover {
+    background-color: #24053E;
+    color: #44FFA1;
+    border: 1px solid #44FFA1;
+    cursor: pointer;
 }
 
 .end-design {
@@ -288,6 +333,281 @@ footer > img {
     height: 20px;
     display: flex;
     justify-content: center;
-    align-items: space-between;
+    align-items: space-between;    
+}
 
+.social-links > img:hover {
+    filter:brightness(50%);
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    header {
+        margin: 32px 39px 56px 39px;
+    }
+
+    .hero-section {
+        max-height: 450px;
+    }
+
+    .hero-section::after {
+        border-radius: 50%;
+        height: 100px;
+        width: 100%;
+        overflow: visible;
+        position: absolute;
+        display: block;
+        content: "";
+        background-color: #24053E;
+        top: 400px;
+        z-index: 22;
+    }
+
+    #phone-img {
+        width: 514px;
+        height: 296px;
+    }
+
+    .middle-hero-container > h1 {
+        font-size: 60px;
+        line-height: 60px;
+        width: 573px;
+        text-align: center;
+        /* letter-spacing: 1px; */
+    }
+
+    .mid-section {
+        flex-direction: column;
+        padding: 600px 98px 250px 97px;
+    }
+
+    .mid-section-flex {
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        align-content: flex-start;
+        max-width: 573px;
+        margin-bottom: 48px;
+    }
+
+    #far-left {
+        padding: 0;
+    }
+
+    #mid {
+        padding: 0;
+    }
+
+    #far-right {
+        padding: 0;
+    }
+
+    .number {
+        font-size: 20px;
+        line-height: 36px;
+        height: 46px;
+        width: 46px;
+        margin: auto 30px auto 0;
+        line-height: 46px;
+    }
+
+    .paragraph-spiegl-box {
+        min-width: 493px;
+    }
+
+    h3 {
+        font-size: 28px;
+        line-height: 36px;
+        text-align: left;
+        margin-bottom: 16px;
+    }
+
+    .paragraph-spiegl {
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0;
+        text-align: left;
+    }
+
+    .mid-section::after {
+        top: 795px;
+        z-index: 20;
+
+    }
+
+    #founder-img {
+        width: 281px;
+        height: 281px;
+        left: -126px;
+    }
+
+    .end-spiegl {
+        margin-left: -225px;
+        margin-right: -125px;
+        max-height: 375px;
+    }
+
+    .end-spiegl > h2 {
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: 0;
+    }
+
+    .end-spiegl > p {
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0;
+    }
+
+    .end-spiegl > button {
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: -0.16px;
+        width: 172px;
+        height: 55px;
+    }
+}
+
+@media (max-width: 400px) {
+    header {
+        margin: 32px 16px 64px 16px;
+    }
+
+    .hero-section {
+        max-height: 450px;
+    }
+
+    .hero-section::after {
+        border-radius: 50%;
+        height: 30px;
+        width: 100%;
+        overflow: visible;
+        position: absolute;
+        display: block;
+        content: "";
+        background-color: #24053E;
+        top: 435px;
+        z-index: 22;
+    }
+
+    .middle-hero-container > h1 {
+        font-size: 50px;
+        line-height: 50px;
+        letter-spacing: 0;
+        width: 343px;
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .middle-hero-container > button {
+        margin-bottom: 64px;
+    }
+
+    #phone-img {
+        height: 184px;
+        width: 320px;
+    }
+
+    .mid-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 600px 16px 250px 16px;
+        min-height: 1135px;
+        top: -50px;
+    }
+
+    .mid-section-flex {
+        flex-direction: column;
+        justify-content: center;
+        min-width: 343px;
+        margin-bottom: 40px;
+    }
+
+    .number {
+        font-size: 20px;
+        line-height: 36px;
+        height: 46px;
+        width: 46px;
+        margin: auto;
+        margin-bottom: 24px;
+        line-height: 46px;
+    }
+
+    .paragraph-spiegl-box {
+        min-width: 343px;
+        z-index: 500;
+    }
+
+    h3 {
+        font-size: 28px;
+        line-height: 36px;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    .paragraph-spiegl {
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0;
+        text-align: center;
+    }
+
+    .mid-section::after {
+        top: 1083px;
+        z-index: 20;
+    }
+
+    .end-section {
+        flex-direction: column;
+        margin: auto;
+        margin-bottom: 74px;
+        align-items: center;
+    }
+
+    #founder-img {
+        width: 281px;
+        height: 281px;
+        left: 0;
+        top: 54px;
+        position: relative;
+    }
+
+    .end-spiegl {
+        margin: auto 16px auto 16px;
+        max-height: 375px;
+        width: 343px;
+        justify-content: center;
+    }
+
+    .end-spiegl > h2 {
+        font-size: 32px;
+        line-height: 48px;
+        letter-spacing: 0;
+        text-align: center;
+        margin: 32px 32px 16px 32px;
+    }
+
+    .end-spiegl > p {
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 24px;
+    }
+
+    .end-spiegl > button {
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: -0.16px;
+        width: 172px;
+        height: 55px;
+        margin: 0 86px 32px 85px;
+    }
+
+    footer {
+        margin-bottom: 64px;
+    }
 }
