@@ -466,6 +466,20 @@ footer > img {
         width: 172px;
         height: 55px;
     }
+
+    .left-hero-img {
+        left: -210px;
+    }
+
+    .right-hero-img {
+        content: url('/styles/images/tablet-right-pattern.svg');
+        top: 215px;
+    }
+
+    .end-design {
+        top: 1950px;
+        right: 50px;
+    }
 }
 
 @media (max-width: 400px) {
@@ -609,5 +623,17 @@ footer > img {
 
     footer {
         margin-bottom: 64px;
+    }
+
+    .left-hero-img {
+        display: none;
+    }
+
+    .right-hero-img {
+        display: none;
+    }
+
+    .end-design {
+        display: none;
     }
 }
