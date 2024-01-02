@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/workit-landing-page-Sa5Pd8V8LP](workit-solution-page)
-- Live Site URL: [https://workit-landing-page-vert.vercel.app/](workit-landing-page)
+- Solution URL: [frontend-mentor-solution](https://www.frontendmentor.io/solutions/workit-landing-page-Sa5Pd8V8LP)
+- Live Site URL: [workit-landing-page](https://workit-landing-page-vert.vercel.app/)
 
 ## My process
 
