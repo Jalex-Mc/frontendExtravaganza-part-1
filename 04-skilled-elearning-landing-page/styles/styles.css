@@ -185,7 +185,9 @@ body {
         position: relative;
         margin-bottom: 186px;
         z-index: 500;
-        overflow: hidden;
+        overflow-x: clip;
+        overflow-clip-margin: 100px;
+
     }
 
     #left-container {
@@ -216,6 +218,7 @@ body {
         justify-content: stretch;
         /* position: relative; */
         /* overflow: hidden; */
+        z-index: 2;
     }
 
     #course-grid-intro {
@@ -254,5 +257,9 @@ body {
     footer {
         padding: 36px 39px 40px;
     }
+
+@media (min-width: 1440px) {
+    
+}
 
 }
