@@ -72,6 +72,7 @@ body {
         background-image: linear-gradient(#ff6f48, #f02aa6);
         border: none;
         color: white;
+        font-family: 'Plus Jakarta Sans', sans-serif;
     }
 
     .hero-image {
@@ -93,7 +94,7 @@ body {
         margin-bottom: 40px;
         z-index: 1;
         overflow: visible;
-        position: relative;
+
 
     }
     
@@ -170,9 +171,88 @@ body {
         border-radius: 28px;
         padding: 9px 24px 11px;
         text-align: center;
+        font-family: 'Plus Jakarta Sans', sans-serif;
     }
 }
 
 @media (min-width: 768px) {
-    
+    header {
+        margin: 24px 40px 99px 39px;
+    }
+
+    .hero-section {
+        flex-direction: row;
+        position: relative;
+        margin-bottom: 186px;
+        z-index: 500;
+        overflow: hidden;
+    }
+
+    #left-container {
+        margin-left: 39px;
+        max-width: 398px;
+    }
+
+    #left-container > h1 {
+        margin-bottom: 26px;
+    }
+
+    .hero-image {
+        content: url("images/image-hero-tablet@2x.webp");
+        max-width: 640.71px;
+        position: absolute;
+        top: -188px;
+        right: -246px;
+        z-index: 501;
+    }
+
+    .course-section {
+        display: grid;
+        margin: 0 40px 86px 39px;
+        grid-template-columns: 1fr 1fr;
+        /* grid-template-columns: 339px 339px; */
+        /* grid-template-rows: 259px; */
+        /* grid-auto-rows: 259px; */
+        justify-content: stretch;
+        /* position: relative; */
+        /* overflow: hidden; */
+    }
+
+    #course-grid-intro {
+        background-image: linear-gradient(#ff6f48, #f02aa6);
+        padding: 56px 21px 139px 32px;
+        margin-right: 10px;
+        margin-bottom: 56px;
+        border-radius: 10px;
+        max-width: 339px;
+    }
+
+    .course-grid-item {
+        margin: 0 10px 56px 0;
+        padding: 56px 22px 32px 32px;
+        /* height: 259px; */
+    }
+
+    .course-grid-item > img {
+        position: absolute;
+    }
+
+    .course-grid-item > h2 {
+        margin-top: 0;
+    }
+
+    .course-grid-item > p {
+        line-height: 26px;
+        margin-top: 0;
+        /* font-size: 15px; */
+    }
+
+    /* .course-grid-item > a {
+        font-size: 17px;
+    } */
+
+    footer {
+        padding: 36px 39px 40px;
+    }
+
 }
