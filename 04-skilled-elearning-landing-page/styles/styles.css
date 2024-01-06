@@ -212,12 +212,7 @@ body {
         display: grid;
         margin: 0 40px 86px 39px;
         grid-template-columns: 1fr 1fr;
-        /* grid-template-columns: 339px 339px; */
-        /* grid-template-rows: 259px; */
-        /* grid-auto-rows: 259px; */
         justify-content: stretch;
-        /* position: relative; */
-        /* overflow: hidden; */
         z-index: 2;
     }
 
@@ -233,7 +228,6 @@ body {
     .course-grid-item {
         margin: 0 10px 56px 0;
         padding: 56px 22px 32px 32px;
-        /* height: 259px; */
     }
 
     .course-grid-item > img {
@@ -247,12 +241,7 @@ body {
     .course-grid-item > p {
         line-height: 26px;
         margin-top: 0;
-        /* font-size: 15px; */
     }
-
-    /* .course-grid-item > a {
-        font-size: 17px;
-    } */
 
     footer {
         padding: 36px 39px 40px;
