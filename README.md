@@ -1,3 +1,5 @@
-# frontendExtravaganza
+# frontendExtravaganza part 1
 
-Daily Frontend Mentor challenges. I plan on doing all of them.
+Daily Frontend Mentor challenges. Doing all premium sites.
+
+First 3 challenges!
