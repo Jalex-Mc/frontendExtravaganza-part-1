@@ -10,30 +10,30 @@ body {
     }
 
     header {
-        margin: 16px 16px 0 16px;
-        max-height: 48px;
+        margin: 1rem 1rem 0 1rem;
+        max-height: 3rem;
         display: flex;
         justify-content: space-between;
     }
 
     header > img {
-        min-width: 89px;
-        padding: 6px 0 7px 0;
+        min-width: 5.56rem;
+        padding: .375rem 0 .437rem 0;
         margin-top: auto;
         margin-bottom: auto;
     }
     header > button {
-        line-height: 28px;
-        font-size: 16px;
+        line-height: 1.75rem;
+        font-size: 1rem;
         letter-spacing: 0;
         font-weight: bold;
         background-color: #13183F;
         color: white;
         border: none;
         border-radius: 28px;
-        padding: 9px 24px 11px;
+        padding: .56rem 1.5rem .69rem;
         text-align: center;
-        min-width: 140px;
+        min-width: 8.75rem;
     }
 
     .hero-section {
@@ -42,34 +42,34 @@ body {
     }
 
     #left-container {
-        margin: 38px 16px 46px;
+        margin: 2.8rem 1rem 2.88rem;
     }
 
     #left-container > h1 {
         color: #13183F;
-        font-size: 40px;
+        font-size: 2.5rem;
         letter-spacing: 0;
         font-weight: 800;
         margin: 0;
-        margin-bottom: 26px;
+        margin-bottom: 1.625rem;
     }
 
     #left-container > p {
-        font-size: 16px;
-        line-height: 26px;
+        font-size: 1rem;
+        line-height: 1.56rem;
         letter-spacing: 0;
         font-weight: 500;
         color: #83869A;
-        margin-bottom: 24px;
+        margin-bottom: 1.5rem;
     }
 
     #left-container > button {
         font-weight: 700;
-        font-size: 16px;
-        line-height: 26px;
+        font-size: 1rem;
+        line-height: 1.625rem;
         letter-spacing: 0;
-        padding: 15px 37px 15px 38px;
-        border-radius: 28px;
+        padding: .937rem 2.31rem .937rem 2.375rem;
+        border-radius: 1.75rem;
         background-image: linear-gradient(#ff6f48, #f02aa6);
         border: none;
         color: white;
@@ -77,22 +77,22 @@ body {
     }
 
     .hero-image {
-        margin: 0 24px;
+        margin: 0 1.5rem;
         max-width: 100%;
     }
 
     .course-section {
         display: grid;
         max-width: 100%;
-        margin: 0 16px 80px; 
+        margin: 0 1rem 5rem; 
         z-index: 3;
     }
 
     #course-grid-intro {
         background-image: linear-gradient(#ff6f48, #f02aa6);
-        padding: 24px 29px 32px 28px;
-        border-radius: 10px;
-        margin-bottom: 40px;
+        padding: 1.5rem 1.813rem 2rem 1.75rem;
+        border-radius: .625rem;
+        margin-bottom: 2.5rem;
         z-index: 1;
         overflow: visible;
 
@@ -102,8 +102,8 @@ body {
     #course-grid-intro > p {
         color: white;
         font-weight: 900;
-        font-size: 24px;
-        line-height: 32px;
+        font-size: 1.5rem;
+        line-height: 2rem;
         letter-spacing: 0;
         text-align: left;
         margin: 0;
@@ -113,10 +113,10 @@ body {
 
     .course-grid-item {
       background-color: white;
-      margin-bottom: 40px;
-      padding: 56px 29px 32px 28px;
-      max-height: 259px;
-      border-radius: 10px;
+      margin-bottom: 2.5rem;
+      padding: 3.5rem 1.813rem 2rem 1.75rem;
+      max-height: 16.188rem;
+      border-radius: .625rem;
       position: relative;
     }
 
@@ -127,21 +127,21 @@ body {
 
     .course-grid-item > h2 {
         font-weight: 800;
-        font-size: 20px;
+        font-size: 1.25rem;
         color:#13183F;
-        margin-bottom: 16px;
+        margin-bottom: 1rem;
     }
 
     .course-grid-item > p {
         font-weight: 500;
-        font-size: 16px;
-        margin-bottom: 24px;
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
         color: #83869A;
     }
 
     .course-grid-item > a {
-        font-size: 18px;
-        line-height: 28px;
+        font-size: 1.125rem;
+        line-height: 1.75rem;
         font-weight: 700;
         color: #f74780;
         text-decoration: none;
@@ -149,28 +149,28 @@ body {
 
     footer {
         display: flex;
-        padding: 36px 16px;
+        padding: 2.25rem 1rem;
         background-color: #13183F;
         justify-content: space-between;
     }
 
     footer > img {
-        min-width: 89px;
-        padding: 6px 0 7px 0;
+        min-width: 5.5625rem;
+        padding: .375rem 0 .4375rem 0;
         margin-top: auto;
         margin-bottom: auto;
     }
 
     footer > button {
-        line-height: 28px;
-        font-size: 16px;
+        line-height: 1.75rem;
+        font-size: 1rem;
         letter-spacing: 0;
         font-weight: bold;
         background-image: linear-gradient(#4851FF, #F02AA6);
         color: white;
         border: none;
-        border-radius: 28px;
-        padding: 9px 24px 11px;
+        border-radius: 1.75rem;
+        padding: .5625rem 1.5rem .6875rem;
         text-align: center;
         font-family: 'Plus Jakarta Sans', sans-serif;
     }
@@ -178,13 +178,13 @@ body {
 
 @media (min-width: 768px) {
     header {
-        margin: 24px 40px 99px 39px;
+        margin: 1.5rem 2.5rem 6.188rem 2.438rem;
     }
 
     .hero-section {
         flex-direction: row;
         position: relative;
-        margin-bottom: 186px;
+        margin-bottom: 11.63rem;
         max-width: 100vw;
         z-index: 500;
         overflow-x: clip;
@@ -193,17 +193,17 @@ body {
 
     #left-container {
         margin: 0;
-        margin-left: 39px;
-        max-width: 398px;
+        margin-left: 2.438rem;
+        max-width: 24.88rem;
     }
 
     #left-container > h1 {
-        margin-bottom: 26px;
+        margin-bottom: 1.625rem;
     }
 
     .hero-image {
         content: url("images/image-hero-tablet@2x.webp");
-        max-width: 640.71px;
+        max-width: 40.044rem;
         position: absolute;
         top: -188px;
         right: -246px;
@@ -212,7 +212,7 @@ body {
 
     .course-section {
         display: grid;
-        margin: 0 40px 86px 39px;
+        margin: 0 2.5rem 5.375rem 2.438rem;
         grid-template-columns: 1fr 1fr;
         justify-content: stretch;
         z-index: 2;
@@ -220,16 +220,16 @@ body {
 
     #course-grid-intro {
         background-image: linear-gradient(#ff6f48, #f02aa6);
-        padding: 56px 21px 139px 32px;
-        margin-right: 10px;
-        margin-bottom: 56px;
-        border-radius: 10px;
-        max-width: 339px;
+        padding: 3.5rem 1.313rem 8.688rem 2rem;
+        margin-right: .625rem;
+        margin-bottom: 3.5rem;
+        border-radius: .625rem;
+        max-width: 21.188rem;
     }
 
     .course-grid-item {
-        margin: 0 10px 56px 0;
-        padding: 56px 22px 32px 32px;
+        margin: 0 .625rem 3.5rem 0;
+        padding: 3.5rem 1.375rem 2rem 2rem;
     }
 
     .course-grid-item > img {
@@ -241,29 +241,29 @@ body {
     }
 
     .course-grid-item > p {
-        line-height: 26px;
+        line-height: 1.625rem;
         margin-top: 0;
     }
 
     footer {
-        padding: 36px 39px 40px;
+        padding: 2.25rem 2.438rem 2.5rem;
     }
 
 @media (min-width: 1440px) {
     header {
-        margin: 29px 165px 172px;
+        margin: 1.8125rem 10.313rem 10.75rem;
     }
 
     header > img {
-        min-width: 114px;
-        padding: 6px 0 7px 0;
+        min-width: 7.125rem;
+        padding: .375rem 0 .4375rem 0;
         margin-top: auto;
         margin-bottom: auto;
     }
 
     header > button {
-        max-height: 56px;
-        font-size: 18px;
+        max-height: 3.5rem;
+        font-size: 1.125rem;
         /* padding: 14px 31px 14px 32px; */
         /* text-align: center; */
     }
@@ -274,30 +274,30 @@ body {
     }
 
     .hero-section {
-        margin-bottom: 250px;
+        margin-bottom: 15.625rem;
         overflow-x: clip;
         overflow-clip-margin: 0px;
     }
 
     #left-container {
-        margin-left: 165px;
-        max-width: 457px;
+        margin-left: 10.3125rem;
+        max-width: 28.563rem;
     }
 
     #left-container > h1 {
-        margin-bottom: 29px;
-        font-size: 56px;
+        margin-bottom: 1.8125rem;
+        font-size: 3.5rem;
 
     }
 
     #left-container > p {
-        margin-bottom: 40px;
-        font-size: 18px;
-        line-height: 28px;
+        margin-bottom: 2.5rem;
+        font-size: 1.125rem;
+        line-height: 1.75rem;
     }
 
     #left-container > button {
-        max-height: 63px;
+        max-height: 3.938rem;
     }
 
     #left-container > button:hover {
@@ -307,14 +307,14 @@ body {
 
     .hero-image {
         content: url("images/image-hero-desktop@2x.webp");
-        max-width: 991.63px;
+        max-width: 61.977rem;
         top: -373px;
         right: -321px;
     }
 
     .course-section {
         display: grid;
-        margin: 0 165px 140px 165px;
+        margin: 0 10.313rem 8.75rem 10.313rem;
         grid-template-columns: 1fr 1fr 1fr;
         justify-content: stretch;
         z-index: 2;
@@ -322,26 +322,26 @@ body {
 
     .course-grid-item {
         margin: 0 30px 80px 0;
-        padding: 64px 32px 40px;
+        padding: 4rem 2rem 2.5rem;
     }
 
     #course-grid-intro {
         background-image: linear-gradient(#ff6f48, #f02aa6);
-        padding: 64px 32px 138px;
-        margin-right: 30px;
-        margin-bottom: 80px;
-        border-radius: 10px;
-        max-width: 350px;
+        padding: 4rem 2rem 8.625rem;
+        margin-right: 1.875rem;
+        margin-bottom: 5rem;
+        border-radius: .625rem;
+        max-width: 21.875rem;
     }
 
     footer {
-        padding: 32px 165px;
+        padding: 2rem 10.313rem;
     }
 
     footer > button {
-        max-height: 56px;
-        font-size: 18px;
-        padding: 14px 31px 14px 32px;
+        max-height: 3.5rem;
+        font-size: 1.125rem;
+        padding: .875rem 1.938rem .875rem 2rem;
     }
 
     footer > button:hover {
